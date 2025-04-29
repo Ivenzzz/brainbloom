@@ -15,3 +15,67 @@ $dark: #2C2C2C; // Dark gray
 $font-family-base: 'DM Serif Text', sans-serif;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+.logo-slider-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.logo-slider {
+    display: flex;
+    animation: scroll-left 20s linear infinite;
+    gap: 4rem;
+}
+
+.logo-slider img {
+    height: 50px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+.logo-slider img:hover {
+    filter: none;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.logo-slider-wrapper {
+    display: flex;
+    gap: 4rem;
+}
+
+/* Duplicate logos to loop seamlessly */
+.logo-slider-content {
+    display: flex;
+    gap: 4rem;
+}
+
+/* Fading edges */
+.fade-left,
+.fade-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.fade-left {
+    left: 0;
+    background: linear-gradient(to right, white 0%, transparent 100%);
+}
+
+.fade-right {
+    right: 0;
+    background: linear-gradient(to left, white 0%, transparent 100%);
+}

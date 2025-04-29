@@ -15,6 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Faustina:ital,wght@0,300..800;1,300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
@@ -46,13 +47,16 @@
                         <!-- Navigation links aligned to the right -->
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
+                                <a class="nav-link" href="#courses">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Plans</a>
+                                <a class="nav-link" href="#plans">Plans</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Blogs</a>
+                                <a class="nav-link" href="#blogs">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <button class="btn btn-dark me-2 mb-2">Login</button>
@@ -68,7 +72,7 @@
         </div>
 
         <div class="row mb-3">
-            <div class="col-12 col-md-6 px-5 d-flex flex-column justify-content-center align-items-center ">
+            <div class="col-12 col-md-6 px-5 d-flex flex-column justify-content-center align-items-center">
                 <h1 class="mb-3">Unlock your potential, invest in your future</h1>
                 <p class="mb-3 fw-lighter text-secondary">Expert-led courses starting at just ₱599 — offer ends
                     tomorrow!</p>
@@ -78,11 +82,11 @@
             </div>
         </div>
 
-        <div class="row mb-3 p-4 bg-light">
+        <div class="row mb-3 p-4 bg-light" id="courses">
             <h2 class="text-center">Featured Courses</h2>
 
             <!-- Course 1: Introduction to Programming -->
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 mb-2">
                 <div class="card border-none p-3 shadow h-100">
                     <img src="assets/imgs/python.jpg" class="card-img-top" alt="Introduction to Programming">
                     <div class="card-body">
@@ -100,7 +104,7 @@
             </div>
 
             <!-- Course 2: Web Development with HTML, CSS, and JavaScript -->
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 mb-2">
                 <div class="card border-none p-3 shadow h-100">
                     <img src="assets/imgs/web_trio.jpg" class="card-img-top" alt="Web Development">
                     <div class="card-body">
@@ -118,7 +122,7 @@
             </div>
 
             <!-- Course 3: Data Structures and Algorithms -->
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 mb-2">
                 <div class="card border-none p-3 shadow h-100">
                     <img src="assets/imgs/dsa2.jpg" class="card-img-top" alt="Data Structures and Algorithms">
                     <div class="card-body">
@@ -136,12 +140,248 @@
             </div>
         </div>
 
+        <div class="row mb-3 p-4">
+            <div class="col-12 p-3">
+                <div class="py-5 bg-white text-center">
+                    <h4 class="mb-4 fw-bold mb-3">
+                        Empowering millions of learners and 16,000+ companies worldwide.
+                    </h4>
+
+                    <div class="logo-slider-container">
+                        <div class="fade-left"></div>
+                        <div class="fade-right"></div>
+
+                        <div class="logo-slider">
+                            <div class="logo-slider-content">
+                                <img src="assets/imgs/fb_logo.png" alt="Facebook" />
+                                <img src="assets/imgs/nvidia_logo.png" alt="Nvidia" />
+                                <img src="assets/imgs/cornhub.png" alt="Cornhub" />
+                                <img src="assets/imgs/reddit_2.png" alt="Reddit" />
+                                <img src="assets/imgs/xbox.png" alt="Xbox" />
+                                <img src="assets/imgs/starbucks.png" alt="Starbucks" />
+                                <img src="assets/imgs/fedex.png" alt="FedEx" />
+                                <img src="assets/imgs/ford.png" alt="Ford" />
+                            </div>
+
+                            <!-- Duplicate for seamless scrolling -->
+                            <div class="logo-slider-content">
+                                <img src="assets/imgs/fb_logo.png" alt="Facebook" />
+                                <img src="assets/imgs/nvidia_logo.png" alt="Nvidia" />
+                                <img src="assets/imgs/cornhub.png" alt="Cornhub" />
+                                <img src="assets/imgs/reddit_2.png" alt="Reddit" />
+                                <img src="assets/imgs/xbox.png" alt="Xbox" />
+                                <img src="assets/imgs/starbucks.png" alt="Starbucks" />
+                                <img src="assets/imgs/fedex.png" alt="FedEx" />
+                                <img src="assets/imgs/ford.png" alt="Ford" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3 p-4 shadow bg-light" id="plans">
+            <div class="col-12">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Choose Your Plan</h2>
+                    <p class="text-muted">Affordable plans to unlock your learning journey</p>
+                </div>
+
+                <div class="row justify-content-center g-4">
+                    <!-- Monthly Plan -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow p-4 h-100 text-center">
+                            <h4 class="fw-bold">Monthly Plan</h4>
+                            <h2 class="my-3">₱599<span class="fs-6">/mo</span></h2>
+                            <p class="text-muted">Access up to <strong>5 courses</strong> per month</p>
+                            <ul class="list-unstyled my-3">
+                                <li>✅ Full access to course content</li>
+                                <li>✅ Certificate of completion</li>
+                                <li>✅ Community support</li>
+                                <li>❌ No offline downloads</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary">Get Monthly Plan</a>
+                        </div>
+                    </div>
+
+                    <!-- Yearly Plan -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow p-4 h-100 text-center border-primary border-2">
+                            <h4 class="fw-bold text-primary">Yearly Plan</h4>
+                            <h2 class="my-3 text-primary">₱5,999<span class="fs-6">/yr</span></h2>
+                            <p class="text-muted">Unlimited access to <strong>all courses</strong></p>
+                            <ul class="list-unstyled my-3">
+                                <li>✅ Everything in Monthly Plan</li>
+                                <li>✅ Unlimited course enrollments</li>
+                                <li>✅ Offline downloads</li>
+                                <li>✅ Priority support</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Get Yearly Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3 p-4" id="blogs">
+            <div class="col-12 text-center mb-5">
+                <h2 class="fw-bold">What Our Learners Say</h2>
+                <p class="text-muted">Real stories from our subscribers</p>
+            </div>
+
+            <!-- Testimonial 1 -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card h-100 shadow-sm p-3">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="assets/imgs/woman.jpg" alt="User 1" class="rounded-circle me-3" width="50"
+                            height="50">
+                        <div>
+                            <h6 class="mb-0 fw-bold">Anna Reyes</h6>
+                            <small class="text-muted">Software Engineer</small>
+                        </div>
+                    </div>
+                    <p class="mb-0 fw-light fst-italic text-muted">“The courses helped me switch careers and land my
+                        dream job. Highly recommend the
+                        yearly plan!”</p>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card h-100 shadow-sm p-3">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="assets/imgs/man.jpg" alt="User 2" class="rounded-circle me-3" width="50" height="50">
+                        <div>
+                            <h6 class="mb-0 fw-bold">Mark Santos</h6>
+                            <small class="text-muted">IT Student</small>
+                        </div>
+                    </div>
+                    <p class="mb-0 fw-light fst-italic text-muted">“Affordable and practical. The lessons are
+                        beginner-friendly, and the instructors
+                        are top-notch.”</p>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card h-100 shadow-sm p-3">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="assets/imgs/man2.jpg" alt="User 3" class="rounded-circle me-3" width="50" height="50">
+                        <div>
+                            <h6 class="mb-0 fw-bold">Arnold Mendoza</h6>
+                            <small class="text-muted">Freelance Developer</small>
+                        </div>
+                    </div>
+                    <p class="mb-0 fw-light fst-italic text-muted">“The platform is user-friendly, and I love that I can
+                        learn at my own pace.”</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5 p-4 bg-light" id="contact">
+            <div class="col-12 text-center mb-4 px-5">
+                <h2 class="fw-bold">Contact Us</h2>
+                <p class="text-muted">We’d love to hear from you. Send us a message!</p>
+            </div>
+
+            <div class="col-12 col-md-6 mb-4 px-5">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label fw-semibold">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-semibold">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label fw-semibold">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+            <div class="col-12 col-md-6 mb-4">
+                <div class="ps-md-4">
+                    <h5 class="fw-bold mb-3">Get in Touch</h5>
+                    <p><i class="fas fa-envelope me-2"></i> support@brainloom.com</p>
+                    <p><i class="fas fa-phone me-2"></i> +63 912 345 6789</p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> Manila, Philippines</p>
+                    <p>We typically respond within 1 business day.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mb-3">
+            <div class="col-12">
+                <footer class="bg-dark text-light pt-5 pb-4">
+                    <div class="container">
+                        <div class="row">
+
+                            <!-- Brand -->
+                            <div class="col-12 col-md-4 mb-4">
+                                <h5 class="fw-bold text-primary">Brainloom</h5>
+                                <p class="">Empowering learners through affordable online education.</p>
+                            </div>
+
+                            <!-- Quick Links -->
+                            <div class="col-6 col-md-2 mb-4">
+                                <h6 class="fw-bold">Quick Links</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Courses</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Pricing</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Support -->
+                            <div class="col-6 col-md-2 mb-4">
+                                <h6 class="fw-bold">Support</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="text-light text-decoration-none">FAQs</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Help Center</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Terms of Service</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Contact & Social -->
+                            <div class="col-12 col-md-4 mb-4">
+                                <h6 class="fw-bold">Contact Us</h6>
+                                <p>Email: support@brainloom.com</p>
+                                <p>Phone: +63 912 345 6789</p>
+                                <div>
+                                    <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="text-light"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="border-light">
+                        <div class="text-center">
+                            <p class="mb-0">&copy; 2025 Brainloom. All rights reserved.</p>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+
+
+
+
+
+
 
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-        crossorigin="anonymous"></script>
+
 </body>
 
 
