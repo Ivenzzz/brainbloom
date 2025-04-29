@@ -1,0 +1,3 @@
+In designing the website, I utilized the Bootstrap grid system to ensure a responsive and flexible layout across all screen sizes. The content is organized into well-defined sections (e.g., hero, featured courses, testimonials, pricing, contact) to enhance readability and user navigation. Cards, rows, and columns help maintain visual consistency, while shadows and spacing (padding and margins) provide a clean, modern aesthetic without overwhelming the user.
+
+For the color palette, I selected white color as the dominant accent color—a soft, showing white and green that conveys trust and growth, ideal for an education platform. The black color adds contrast and vibrancy, making buttons or callouts stand out.
